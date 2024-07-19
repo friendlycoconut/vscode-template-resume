@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import About from "./About";
 import Contact from "./Contact";
-import SideBar from "../components/SideBar";
 import Resume from "./Resume";
 import MobileMenu from "../components/MobileMenu";
-import Header from "../components/Header";
+
 import NavBar from "../components/NavBar";
+import Header from "../components/Header";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState("home");
@@ -24,12 +24,6 @@ const Home = () => {
 
   return (
     <div id="home" className="App flex h-full">
-      <div
-        className="bg-[#262526] h-full fixed hidden lg:block"
-        style={{ width: `${sidebarWidth}px` }}
-      >
-        <SideBar setWidth={setSidebarWidth} width={sidebarWidth} />
-      </div>
       <div className="bg-[#1e1e1e] h-full">
         <div className="lg:hidden">
           <MobileMenu />
@@ -41,7 +35,7 @@ const Home = () => {
           <NavBar activeTab={activeTab} setActiveTab={setActiveTab} />
         </div>
         {activeTab === "home" && (
-          <div style={{ paddingLeft: `${sidebarWidth}px` }}>
+          <div >
             <Header />
             <About />
             <Resume />

@@ -8,6 +8,7 @@ module.exports = {
         yellow_vs:"#D9E577",
         blue_vs:"#389fdc",
         lightblue_vs:"#85d8fb",
+        lightpink_vs:"#66101f",
         brown_vs:"#d98e73",
         
       },

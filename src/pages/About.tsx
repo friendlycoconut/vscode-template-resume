@@ -39,20 +39,15 @@ const About = () => {
       <div>
         <div className="table">
           <IdentificationIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
-          <code className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
-            About Me
+          <code className="table-cell text-[#FEFFDB] text-3xl mt-5 whitespace-nowrap">
+            Friendly Coconut
           </code>
           <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
         </div>
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros
-            non nisi vulputate eleifend. Vestibulum erat ipsum, lacinia ut nibh
-            ut, pulvinar interdum lorem. Aliquam et nisi eu risus ultrices
-            suscipit nec nec quam. Suspendisse pretium fermentum luctus.
-            Maecenas vitae vestibulum ipsum, ut varius diam. Phasellus mattis
-            nunc vel purus maximus, sit amet congue ligula tincidunt. Nulla
-            tristique luctus lacinia. Nullam ut tortor arcu.
+            Hi! This Single-page site was created with the only purpose -
+            to simplify the automatic generation of a CV. 
           </code>
           <br />
           <br />
